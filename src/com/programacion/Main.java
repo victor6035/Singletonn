@@ -1,5 +1,7 @@
 package com.programacion;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,6 +31,9 @@ public class Main {
         obx2.setNombre("Jose");
         System.out.println(obx2.getNombre() +obx2.getEdad());
         System.out.println(obx1.getNombre() +obx1.getEdad());
+        //versión 1.1 del progrma con otra instancia
+        Singleton versionInstancia = Singleton.getInstance();
+        versionInstancia.setNombre("versión 1.1");
 
 
 
